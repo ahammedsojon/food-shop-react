@@ -1,0 +1,28 @@
+.search-container{
+    background-color: #e30110b2;
+    line-height: 60px;
+    text-align: center;
+}
+.search-container input{
+    width: 75%;
+    padding: 5px;
+}
+.shop-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 30px;
+}
+.food-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+    margin-left: 10%;
+    border-right: 1px solid #e3010f;
+    padding-right: 15px;
+}
+.order-container{
+    margin-left: 10px;
+}
+.order-title{
+    margin-left: 20px;
+}
